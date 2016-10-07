@@ -1,0 +1,13 @@
+[alias]
+    co = checkout
+    ci = commit
+    ca = commit --amend
+    st = status
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+    la = "!git config -l | grep alias | cut -c 7-"
+    d = diff
+    ds = diff --stat
+    dc = diff --cached

@@ -1,0 +1,6 @@
+[gui]
+
+[user]
+
+[include]
+   path = ~/.gitconfig.d/gitalias
