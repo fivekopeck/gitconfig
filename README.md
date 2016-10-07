@@ -1,0 +1,2 @@
+# gitconfig
+git settings, alias
